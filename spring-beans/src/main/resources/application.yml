@@ -1,0 +1,10 @@
+server:
+  port: 8081
+pageController:
+  msg: Pesan ini berasal dr application.yml YML Config
+myconfig:
+  app-name: My Application Name
+  app-description: ${myconfig.app-name} is a spring boot application
+  admin-first-name: Dan
+  admin-last-name: Vega
+  adminEmail: danvega@gmail.com

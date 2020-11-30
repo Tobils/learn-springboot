@@ -25,10 +25,13 @@ public class SpringBeansApplication {
 		Arrays.sort(beanNames);
 
 		for( String name : beanNames ) {
-			System.out.println(name);
+//			System.out.println(name);
 		}
 
 		System.out.println( ctx.getBean("user").toString() );
+
+		MyAppConfig config = (MyAppConfig) ctx.getBean("myAppConfig");
+		System.out.println(config.toString());
 
 	}
 
