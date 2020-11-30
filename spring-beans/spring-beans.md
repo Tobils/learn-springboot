@@ -126,7 +126,9 @@
             }
 
             ```
-          output akan secara otomatis menyesuaikan dengan valu yang sudah didefinisikan pada file application.yml.
+          ![output config](./spring-config.png)
+          
+          output akan secara otomatis menyesuaikan dengan value yang sudah didefinisikan pada file application.yml.
       
   
 
