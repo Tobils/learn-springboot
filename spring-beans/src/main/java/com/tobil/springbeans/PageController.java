@@ -8,11 +8,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PageController {
 
-    // notification service
+    // define
     @Autowired
     private NotificationService notificationService;
 
-
+    // define by setter
+//    @Autowired
+//    public void setNotificationService(NotificationService notificationService) {
+//        this.notificationService = notificationService;
+//    }
+//
+//    // define by constructor
+//    @Autowired
+//    public PageController(NotificationService notificationService) {
+//        this.notificationService = notificationService;
+//    }
 
     @GetMapping("/")
     public String home(){
