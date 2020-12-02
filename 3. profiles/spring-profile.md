@@ -2,6 +2,8 @@
 
 Untuk binding profile kita dapat menggunakan beans dengan profile yang berbeda
 
+[List of content](../README.md)
+
 ## Config
 - application.properties
     ```properties
